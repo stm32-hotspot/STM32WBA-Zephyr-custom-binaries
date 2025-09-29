@@ -2,7 +2,13 @@
 
 - WBA6_LinkLayer15_4_Zephyr.a and WBA6_LinkLayer_Thread_lib_Zephyr.a are the 802.15.4 linklayer libraries modified that are needed in Zephyr.
 
-- WBA6_Mac15_4.a is a custom library containing only the mac.c file that was originally embedded in WBA6_LinkLayer15_4_Zephyr.a.
+- WBA6_LinkLayer_BLE_Basic_15_4_lib_Zephyr.a and WBA6_LinkLayer_BLE_Full_15_4_lib_Zephyr.a are the concurrent mode BLE - 802.15.4 linklayer libraries modified that are needed in Zephyr.
+
+- WBA6_Mac15_4.a is a custom library containing only the mac.c file that was originally embedded in WBA6_LinkLayer15_4.a.
+
+- WBA6_Mac15_4_Concurrent_BLE_Basic.a is a custom library containing only the mac.c file that was originally embedded in WBA6_LinkLayer_BLE_Mac_lib.a
+
+- WBA6_Mac15_4_Concurrent_BLE_Full.a is a custom library containing only the mac.c file that was originally embedded in WBA6_LinkLayer_BLE_Mac_lib.a
 
 These lib must not be used in CubeFW environment.
 
